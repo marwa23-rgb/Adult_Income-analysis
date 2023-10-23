@@ -6,20 +6,20 @@ Data cleaning(replace ? with nan)
 
 Next, the project uses data visualization to understand the distribution and relationships within the dataset. This is done using Matplotlib and Seaborn to create various types of plots, such as bar charts, scatter plots, and histograms. Examples of data visualizations that the project might create include:
 
-A bar chart showing the distribution of income by age
-A bar plot visualizing the relationship between education level and income
-A histogram showing the distribution of age
-A histogram showing the distribution of work class
-The project also examines the correlation between numerical variables to understand how they relate to each other. This is done using the correlation matrix and plotting it as a heatmap.
+#### A bar chart showing the distribution of income by age
+#### A bar plot visualizing the relationship between education level and income
+#### A histogram showing the distribution of age
+#### A histogram showing the distribution of work class
+#### The project also examines the correlation between numerical variables to understand how they relate to each other. This is done using the correlation matrix and plotting it as a heatmap.
 
 The Adult income dataset analysis is a valuable resource for anyone who wants to learn more about data analysis or who is interested in understanding the factors that influence income. It is also a useful example of how to use data science to make predictions about complex phenomena.
 
 Here are some specific examples of research questions that the Adult income dataset analysis could address:
-What is The Distribution of the Age Column?
-The relationship between education level and income?
-What is The Distribution of age and work class Column?
-How many people have a Bachelor's or Master's Degree?
-Bivariate analysis?
-Add Column to Better Show for Income Values?
-What is The Distribution of class and income Column?
-What is The Distribution of Sex and the income Column?
+#### What is The Distribution of the Age Columns?
+#### The relationship between education level and income?
+#### What is The Distribution of age and work class Columns?
+#### How many people have a Bachelor's or Master's Degree?
+#### Bivariate analysis?
+#### Add Column to Better Show for Income Values?
+#### What is The Distribution of class and income Columns?
+#### What is The Distribution of Sex and the income Columns?
