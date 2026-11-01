@@ -1,25 +1,64 @@
-# Adult_Income-analysis
-The Adult income dataset analysis is a data analysis project that explores the Adult income dataset, a public dataset that contains demographic and income data for a set of individuals. The goal of the project is to gain insights into the factors that influence income, identify patterns, and make predictions about future income levels.
+<h1 align="center">💰 Adult Income Analysis</h1>
 
-The project begins with an initial data exploration to understand the structure and contents of the dataset. This is done using commands like head(), info(), and describe() in Python. Once the dataset is understood, the project checks for any missing values or duplicates. Any missing values are handled and duplicate rows are removed. Drop The Columns educational-num, capital-gain and capital-loss, and fnlwgt.
-Data cleaning(replace ? with nan)
+<p align="center">
+  Exploratory data analysis of demographic and income data using Python
+</p>
 
-Next, the project uses data visualization to understand the distribution and relationships within the dataset. This is done using Matplotlib and Seaborn to create various types of plots, such as bar charts, scatter plots, and histograms. Examples of data visualizations that the project might create include:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Seaborn-Visualization-4C8CBF" alt="Seaborn">
+  <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
+</p>
 
-#### A bar chart showing the distribution of income by age
-#### A bar plot visualizing the relationship between education level and income
-#### A histogram showing the distribution of age
-#### A histogram showing the distribution of work class
-#### The project also examines the correlation between numerical variables to understand how they relate to each other. This is done using the correlation matrix and plotting it as a heatmap.
+## 📌 Overview
 
-The Adult income dataset analysis is a valuable resource for anyone who wants to learn more about data analysis or who is interested in understanding the factors that influence income. It is also a useful example of how to use data science to make predictions about complex phenomena.
+This project explores the **Adult Income** dataset, a public dataset with demographic and income data for a set of individuals. It cleans the data, visualizes it with Matplotlib and Seaborn, and answers 8 questions to understand the factors that influence income, such as age, education, work class and sex.
 
-Here are some specific examples of research questions that the Adult income dataset analysis could address:
-#### What is The Distribution of the Age Columns?
-#### The relationship between education level and income?
-#### What is The Distribution of age and work class Columns?
-#### How many people have a Bachelor's or Master's Degree?
-#### Bivariate analysis?
-#### Add Column to Better Show for Income Values?
-#### What is The Distribution of class and income Columns?
-#### What is The Distribution of Sex and the income Columns?
+---
+
+## ⚡ At a Glance
+
+| ❓ Questions Answered | 🧹 Columns Dropped | 📊 Visualizations |
+|:---:|:---:|:---:|
+| **8** | **4** | **5** |
+
+---
+
+## 🔄 Workflow
+
+1. **Load & Inspect** – Reviewed the structure and contents of the data (`head()`, `info()`, `describe()`).
+2. **Clean** – Dropped `educational-num`, `capital-gain`, `capital-loss` and `fnlwgt`, replaced `?` with `NaN`, handled missing values, and removed duplicate rows.
+3. **Visualize** – Built bar charts and histograms with Matplotlib and Seaborn.
+4. **Correlate** – Computed the correlation matrix and plotted it as a heatmap.
+5. **Analyze** – Answered the questions below, including bivariate analysis.
+
+---
+
+## 📊 Visualizations
+
+| Plot | Shows |
+|---|---|
+| Bar chart | Distribution of income by age |
+| Bar plot | Relationship between education level and income |
+| Histogram | Distribution of age |
+| Histogram | Distribution of work class |
+| Heatmap | Correlation between numerical variables |
+
+---
+
+## 🔍 Questions Answered
+
+| # | Question |
+|:---:|---|
+| 1 | What is the distribution of the age column? |
+| 2 | What is the relationship between education level and income? |
+| 3 | What is the distribution of age and work class? |
+| 4 | How many people have a Bachelor's or Master's degree? |
+| 5 | What does bivariate analysis show? |
+| 6 | How can a new column make the income values easier to read? |
+| 7 | What is the distribution of work class and income? |
+| 8 | What is the distribution of sex and income? |
+## 👩‍💻 Author
+
+**Marwa Samy** · [GitHub](https://github.com/marwa23-rgb)
